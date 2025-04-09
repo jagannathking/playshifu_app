@@ -12,11 +12,9 @@ const app=express();
 app.use(express.json());
 connectDB();
 
-app.use(cors({
-    origin: "*", 
-  }));
+app.use(cors());
   
-  app.get("/api/hello", (req, res) => {
+  app.get("/", (req, res) => {
     res.json({ message: "Hello welcome to backend" });
   });
     
