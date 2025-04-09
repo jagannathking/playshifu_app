@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "https://playshifu-apies.onrender.com/api/"; // api link 
+const baseUrl = "https://playshifu-app.vercel.app/api/"; // api link 
  
 export const apiClient = axios.create({
     baseURL: baseUrl,
